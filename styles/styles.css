@@ -1,9 +1,30 @@
 /****************TAGS*******************/
 
-
+body
+{
+  height: 100%;
+  background-color:hsl(185, 75%, 39%) ;
+}
 
 /*******************CLASSES****************/
 
+.parent {
+height: 200px;
+background: #CCCCCC;
+display: flex;
+align-items: center;
+justify-content: center;
+  transform: translate(-50%, -50%);
+}
+.child {
+background-color: #FFFF00;
+width: 100px;
+height: 100px;
+}
+
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
 
 
 /**********************IDS***********************/
