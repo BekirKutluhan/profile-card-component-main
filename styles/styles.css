@@ -7,19 +7,42 @@ body
 /*******************CLASSES****************/
 .tlc
 {
-  padding:360px;
+
   background-image:url("../images/bg-pattern-top.svg"),url("../images/bg-pattern-bottom.svg");
   background-size: 70%,60%;
   background-repeat: no-repeat,no-repeat;
-  background-position:top 170% left -90%, right -30% bottom 280%;
+  background-position:top 170% left -70%, right -10% bottom 280%;
+  text-align: center;
+  height: 720px;
 }
 .parent
 {
+  background-color: white;
+  width: 25%;
+  border-radius: 1em;
+  position: absolute;
+  inset:0;
+  margin: auto ;
+  height: 400px;
 
 }
 .tlc2
 {
 
+
+}
+.child1
+{
+  border-radius: 10px;
+  height: 33%;
+  background-color: hsl(180, 55%, 50%);
+  background-image:url("../images/bg-pattern-top.svg");
+  background-position: top,bottom;
+   background-repeat:repeat;
+  background-size:9%;
+}
+.child2
+{
 
 }
 /**********************IDS***********************/
@@ -31,3 +54,8 @@ body
 {
 
 }
+#victor
+{
+border-radius: 50%;
+}
+;
