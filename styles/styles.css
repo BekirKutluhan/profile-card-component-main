@@ -1,45 +1,46 @@
+
+
 /****************TAGS*******************/
 body
 {
   margin: 0 0;
  background-color: hsl(185, 75%, 39%);
 }
+h3
+{
+}
 /*******************CLASSES****************/
 .tlc
 {
-
   background-image:url("../images/bg-pattern-top.svg"),url("../images/bg-pattern-bottom.svg");
-  background-size: 70%,60%;
+  background-size: 70%,70%;
   background-repeat: no-repeat,no-repeat;
-  background-position:top 170% left -70%, right -10% bottom 280%;
+  background-position:top 170% left -70%, right -50% bottom 200%;
   text-align: center;
   height: 720px;
 }
 .parent
 {
+  border-radius: 20px;
   background-color: white;
-  width: 25%;
+  width: 22%;
   border-radius: 1em;
   position: absolute;
   inset:0;
   margin: auto ;
-  height: 400px;
-
+  height: 360px;
 }
 .tlc2
 {
 
-
 }
 .child1
 {
-  border-radius: 10px;
-  height: 33%;
+  border-radius: 10px 10px 0 0;
+  height: 40%;
   background-color: hsl(180, 55%, 50%);
-  background-image:url("../images/bg-pattern-top.svg");
-  background-position: top,bottom;
-   background-repeat:repeat;
-  background-size:9%;
+  background-image:url("../images/bg-pattern-top.svg"),url("../images/bg-pattern-bottom.svg"),url("../images/bg-pattern-top.svg"),url("../images/bg-pattern-bottom.svg");
+  background-size:10%,10%,10%,10%;
 }
 .child2
 {
@@ -56,6 +57,28 @@ body
 }
 #victor
 {
+background-color: white;
+border:5px solid;
+position: absolute;
+margin:-50px 0 0 -47px;
+border-color: white;
 border-radius: 50%;
 }
-;
+#victors_p
+{
+  position:relative;
+  inset:0;
+  margin: 20% auto ;
+font-family: 'Kumbh Sans', sans-serif;
+font-weight: bold;
+font-size: 1.25rem;
+}
+#london
+{
+  position:relative;
+  inset:0;
+  margin: -15% auto ;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight:200;
+  font-size: 1rem;
+}
