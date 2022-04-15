@@ -28,8 +28,8 @@ url(../design/mobile-design.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/profilecardcomponentbekirkutluhancoskun-rJ1ljLw45)
+- Live Site URL: [](https://bekirkutluhan.github.io/profile-card-component-main/)
 
 ## My process
 I designed this challenge step by step. I added several commits if you would like to see.
