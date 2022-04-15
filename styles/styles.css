@@ -9,6 +9,10 @@ body
 h3
 {
 }
+hr
+{
+font-family:'Kumbh Sans',sans-serif;
+}
 /*******************CLASSES****************/
 .tlc
 {
@@ -39,11 +43,34 @@ h3
   border-radius: 10px 10px 0 0;
   height: 40%;
   background-color: hsl(180, 55%, 50%);
-  background-image:url("../images/bg-pattern-top.svg"),url("../images/bg-pattern-bottom.svg"),url("../images/bg-pattern-top.svg"),url("../images/bg-pattern-bottom.svg");
-  background-size:10%,10%,10%,10%;
+  background-image:url("../images/bg-pattern-card.svg");
 }
 .child2
 {
+}
+.eighty
+{
+  margin-right: 45px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+
+}
+.eighthundredthree
+{
+  margin-right: 45px;
+  display: inline-block;
+  font-size: 18px;
+  /* margin-bottom: 5px; */
+  font-weight: 700;
+
+}
+.onepoint4k
+{
+  display: inline-block;
+  font-size: 18px;
+  /* margin-bottom: 5px; */
+  font-weight: 700;
 
 }
 /**********************IDS***********************/
@@ -66,19 +93,40 @@ border-radius: 50%;
 }
 #victors_p
 {
-  position:relative;
-  inset:0;
-  margin: 20% auto ;
+display: inline-block;
+margin-top: 75px;
 font-family: 'Kumbh Sans', sans-serif;
-font-weight: bold;
-font-size: 1.25rem;
+font-size: 18px;
+margin-bottom: 5px;
+font-weight: 700;
+}
+#twentySix
+{
+font-size: 18px;
+display: inline-block;
+font-family:'Kumbh Sans',serif;
+margin-bottom: 5px;
+font-weight: 400;
 }
 #london
 {
-  position:relative;
-  inset:0;
-  margin: -15% auto ;
+  margin-top: 0;
+  margin-bottom: 20px;
   font-family: 'Kumbh Sans', sans-serif;
-  font-weight:200;
-  font-size: 1rem;
+  font-size: 14px;
+  font-weight: 400;
+}
+#up
+{
+  font-family: 'Kumbh Sans', sans-serif;
+margin-bottom:0;
+font-weight: 700;
+}
+#down
+{
+  margin: 0;
+  display: inline-block;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
 }
