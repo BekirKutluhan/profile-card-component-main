@@ -22,8 +22,8 @@ The challenge aims you to design an imitation of a page which is provided by fro
 
 ### Screenshot
 
-![](./images/desktop-desing.jpg)
-![](./images/mobile-desing.jpg)
+![](./design/desktop-desing.jpg)
+![](./design/mobile-desing.jpg)
 
 ### Links
 
