@@ -53,15 +53,21 @@ To see how you can add code snippets, see below:
   </div>
   <div class="child3">
     <p id="victors_p">Victor Crest</p>
+ ```
+ ```CSS
+ .tlc
+ {
+   background-image:url("../images/bg-pattern-top.svg"),url("../images/bg-pattern-bottom.svg");
+   background-size: 70%,70%;
+   background-repeat: no-repeat,no-repeat;
+   background-position:top 170% left -70%, right -50% bottom 200%;
+   text-align: center;
+   height: 720px;
+ }
 ```
----CSS
-background-image:url("../images/bg-pattern-top.svg"),url("../images/bg-pattern-bottom.svg");
-background-size: 70%,70%;
-background-repeat: no-repeat,no-repeat;
-background-position:top 170% left -70%, right -50% bottom 200%;
-text-align: center;
-height: 720px;
----
+
+
+
 ### Continued development
 
 I still need to learn a lot. Please contact me if you think i did something wrong or weak or mine is worse than yours.
